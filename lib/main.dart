@@ -31,14 +31,14 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     final _question = const [
-    {'questionText' : 'What\'s your favaroit porn star ?',
-    'answerText' : ['Dani daniels','Mia khalifa','Kendra lust','Jonny sins']},
+    {'questionText' : 'What\'s your favaroit color ?',
+    'answerText' : ['Orange','Blue','Green','Red']},
     {
-      'questionText' : 'Which website do u use to watch porn ? ',
-    'answerText' : ['X-hamster','X-videos','Porn hub','XNXX']
+      'questionText' : 'Which colour do not include in rainbow ? ',
+    'answerText' : ['Yellow','Violet','Indigo','Pink']
     },{
-      'questionText' : 'From where the fuck you get these knowledge ? ',
-    'answerText' : ['Just explored','Childhood friends','School friends','Brothers']
+      'questionText' : 'Which shirt and pant combination colour would you prefer ? ',
+    'answerText' : ['Cotton pant and black white check shirt','White grey pant black T-shirt','Black plain pant White shirt','Blue pant grey shirt']
     }
     ];
     return MaterialApp(
